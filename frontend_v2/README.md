@@ -26,7 +26,7 @@ Run the following command to build and serve the docs:
 npm run doc:buildandserve
 ```
 
-Open http://localhost:8080 in the browser to have a look at the generated docs.
+Open http://167.86.86.51:8080 in the browser to have a look at the generated docs.
 
 ## Build
 

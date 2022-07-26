@@ -26,7 +26,7 @@ COMPUTE_DIRECTORY_PATH = join(BASE_TEMP_DIR, "compute")
 logger = logging.getLogger(__name__)
 
 AUTH_TOKEN = os.environ.get("AUTH_TOKEN")
-DJANGO_SERVER = os.environ.get("DJANGO_SERVER", "localhost")
+DJANGO_SERVER = os.environ.get("DJANGO_SERVER", "167.86.86.51")
 DJANGO_SERVER_PORT = os.environ.get("DJANGO_SERVER_PORT", "8000")
 QUEUE_NAME = os.environ.get("QUEUE_NAME", "evalai_submission_queue")
 

@@ -8,8 +8,8 @@
 <script type="text/javascript">
     function link(){
     var url = window.location.origin + "/auth/login";
-    if (url.indexOf("localhost") !== -1){
-        url = "http://localhost:8888/auth/login"
+    if (url.indexOf("167.86.86.51") !== -1){
+        url = "http://167.86.86.51:8888/auth/login"
     }
     var element = document.getElementById('login-url');
     element.setAttribute("href",url)

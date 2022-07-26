@@ -43,6 +43,6 @@ services:
     command:
       - '--config.file=/prometheus/alert_manager.yml'
       - '--storage.path=/data'
-      - '--web.external-url=http://localhost:9093/alert_manager'
+      - '--web.external-url=http://167.86.86.51:9093/alert_manager'
     ports:
       - 9093:9093

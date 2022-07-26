@@ -151,7 +151,7 @@ If the above does not work, try deleting them by following commands:
 
 Then, start the installation process of frontend once more.
 
-#### Q. While using docker, I am getting the following error on URL [http://localhost:8888/](http://localhost:8888/):
+#### Q. While using docker, I am getting the following error on URL [http://167.86.86.51:8888/](http://167.86.86.51:8888/):
 
 ```
 Cannot Get \

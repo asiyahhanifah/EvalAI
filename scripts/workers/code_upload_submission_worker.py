@@ -40,7 +40,7 @@ logger.propagate = False
 
 AUTH_TOKEN = os.environ.get("AUTH_TOKEN", "auth_token")
 EVALAI_API_SERVER = os.environ.get(
-    "EVALAI_API_SERVER", "http://localhost:8000"
+    "EVALAI_API_SERVER", "http://167.86.86.51:8000"
 )
 QUEUE_NAME = os.environ.get("QUEUE_NAME", "evalai_submission_queue")
 script_config_map_name = "evalai-scripts-cm"
